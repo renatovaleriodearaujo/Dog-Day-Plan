@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DogDay Plan – One Activity Plan for Your Dog Today</title>
+<meta name="description" content="Answer a few questions about your dog, your time, and your space. Get one simple activity plan in under 60 seconds. Stop guessing, start enjoying.">
+
+<meta property="og:title" content="DogDay Plan – One Activity Plan for Your Dog Today">
+<meta property="og:description" content="Answer a few questions about your dog, your time, and your space. Get one simple activity plan in under 60 seconds. Stop guessing, start enjoying.">
+<meta property="og:type" content="website">
+
+<meta name="twitter:card" content="summary">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<style>
+  *,*::before,*::after{box-sizing:border-box;border-width:0;border-style:solid}
+  html{min-height:100%;scroll-behavior:smooth}
+  body{margin:0;min-height:100vh;overflow-x:hidden;overflow-y:auto;padding:0}
+  body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-feature-settings:"ss01","cv11";text-rendering:optimizeLegibility}
+  .sales-preview{display:block!important;height:auto!important;min-height:100vh!important;overflow:visible!important;width:100%!important}
+  .sales-preview>[data-section-kind]{display:block!important;position:relative}
+  h1,h2,h3,h4{font-weight:800!important;letter-spacing:-0.025em}
+  :where(h1,h2,h3,h4,h5,h6,p,blockquote,figure,dl,dd){margin:0}
+  :where(ul,ol){margin:0;padding:0}
+  img{max-width:100%;display:block}
+  a{color:inherit;text-decoration:inherit}
+  button,input,textarea,select{font:inherit}
+  details summary::-webkit-details-marker{display:none}
+.sales-preview .sales-smart-grid,
+.sales-preview .sales-testimonials-grid,
+.sales-preview[data-sales-device="desktop"] .sales-testimonials-grid,
+.sales-preview[data-sales-device="desktop"] .sales-smart-grid {
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .sales-preview[data-sales-device="desktop"] .sales-smart-grid,
+  .sales-preview:not([data-sales-device="mobile"]) .sales-smart-grid {
+    grid-template-columns: var(--sales-desktop-grid-template, repeat(2, minmax(0, 1fr)));
+  }
+
+  .sales-preview[data-sales-device="desktop"] .sales-testimonials-grid,
+  .sales-preview:not([data-sales-device="mobile"]) .sales-testimonials-grid {
+    grid-template-columns: var(--sales-testimonials-desktop-grid-template, repeat(2, minmax(0, 1fr)));
+  }
+}
+
+.sales-media-frame {
+  max-width: 100%;
+}
+
+.sales-preview[data-sales-device="desktop"] .sales-media-frame,
+.sales-preview:not([data-sales-device="mobile"]) .sales-media-frame {
+  max-width: min(100%, 580px) !important;
+}
+
+.sales-pricing-section,
+.sales-pricing-card {
+  overflow: visible !important;
+  position: relative;
+  z-index: 2;
+}
+
+.sales-pricing-media {
+  margin-top: calc(clamp(-104px, -9.5vw, -58px) + var(--sales-pricing-image-offset-y, 0px)) !important;
+  margin-bottom: clamp(-10px, -1.2vw, -4px) !important;
+  position: relative;
+  z-index: 3 !important;
+  transform: translateY(calc(clamp(-12px, -1.4vw, -6px) + var(--sales-pricing-image-offset-y, 0px)));
+  filter: drop-shadow(0 22px 28px rgba(0, 0, 0, 0.22));
+}
+
+.sales-rich-text :where(h1, h2, h3, p) {
+  font-family: inherit;
+  font-weight: inherit !important;
+  letter-spacing: inherit;
+  margin: 0;
+}
+
+.sales-rich-text h1 {
+  font-size: var(--sales-rich-text-h1-size, 1.35em);
+  line-height: var(--sales-rich-text-heading-line-height, 1.12);
+}
+
+.sales-rich-text h2 {
+  font-size: var(--sales-rich-text-h2-size, 1.18em);
+  line-height: var(--sales-rich-text-heading-line-height, 1.18);
+}
+
+.sales-rich-text h3 {
+  font-size: var(--sales-rich-text-h3-size, 1.05em);
+  line-height: var(--sales-rich-text-heading-line-height, 1.22);
+}
+
+.sales-rich-text .ql-align-center {
+  text-align: center;
+}
+
+.sales-rich-text .ql-align-left {
+  text-align: left;
+}
+
+.sales-rich-text .ql-align-right {
+  text-align: right;
+}
+
+.sales-rich-text .ql-align-justify {
+  text-align: justify;
+}
+
+.sales-preview[data-sales-device="desktop"] .sales-hero-headline,
+.sales-preview:not([data-sales-device="mobile"]) .sales-hero-headline {
+  font-size: calc(var(--sales-hero-title-size, 32px) * 1.18) !important;
+}
+
+.sales-preview[data-sales-device="desktop"] .sales-hero-subheadline,
+.sales-preview:not([data-sales-device="mobile"]) .sales-hero-subheadline {
+  font-size: calc(var(--sales-hero-subtitle-size, 17px) * 1.1) !important;
+}
+
+.sales-checklist-item .sales-rich-text {
+  font-size: inherit !important;
+}
+
+.sales-countdown-grid {
+  --sales-countdown-cell-block-padding: calc(clamp(8px, 2.4vw, 14px) * var(--sales-countdown-scale, 1));
+  --sales-countdown-cell-inline-padding: calc(clamp(4px, 1.8vw, 10px) * var(--sales-countdown-scale, 1));
+  --sales-countdown-gap: calc(clamp(4px, 1.6vw, 10px) * var(--sales-countdown-scale, 1));
+  --sales-countdown-max-cell-width: calc(
+    (100cqw - (var(--sales-countdown-columns, 4) - 1) * var(--sales-countdown-gap)) /
+      var(--sales-countdown-columns, 4)
+  );
+  container-type: inline-size;
+  display: flex;
+  gap: var(--sales-countdown-gap);
+  justify-content: center;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.sales-countdown-cell {
+  flex: 0 1 min(
+    max(
+      calc(92px * var(--sales-countdown-scale, 1)),
+      calc(var(--sales-countdown-number-size, 34px) * var(--sales-countdown-scale, 1) * 1.55)
+    ),
+    var(--sales-countdown-max-cell-width)
+  );
+  box-sizing: border-box;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.sales-countdown-value {
+  font-size: clamp(
+    12px,
+    min(
+      calc(var(--sales-countdown-number-size, 34px) * var(--sales-countdown-scale, 1)),
+      calc(
+        (var(--sales-countdown-max-cell-width) - (var(--sales-countdown-cell-inline-padding) * 2)) /
+          1.14
+      )
+    ),
+    calc(var(--sales-countdown-number-size, 34px) * var(--sales-countdown-scale, 1))
+  ) !important;
+  max-width: 100% !important;
+  overflow: hidden !important;
+  text-overflow: clip !important;
+  white-space: nowrap !important;
+  word-break: keep-all !important;
+}
+
+.sales-countdown-cell [data-label-unit] {
+  font-size: clamp(9px, calc(var(--sales-countdown-label-size, 11px) * var(--sales-countdown-scale, 1)), 38px) !important;
+  white-space: nowrap !important;
+  word-break: keep-all !important;
+}
+
+.sales-button-cta {
+  cursor: pointer;
+  min-height: 52px;
+  overflow-wrap: anywhere;
+  position: relative;
+  z-index: 2;
+  transform: translateY(0) scale(1);
+  transition:
+    opacity 180ms cubic-bezier(0.22, 1, 0.36, 1),
+    transform 180ms cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 180ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.sales-button-section {
+  overflow: visible !important;
+  position: relative;
+  z-index: 2;
+}
+
+.sales-preview[data-sales-device="mobile"] .sales-button-cta[data-full-width="true"] {
+  --sales-button-full-max-width: 100%;
+}
+
+.sales-preview[data-sales-device="desktop"] .sales-button-cta[data-full-width="true"],
+.sales-preview:not([data-sales-device="mobile"]) .sales-button-cta[data-full-width="true"] {
+  --sales-button-full-max-width: 560px;
+}
+
+.sales-button-cta[data-button-style="step"] {
+  box-shadow:
+    0 7px 0 var(--sales-button-step-color),
+    0 16px 28px rgba(0, 0, 0, 0.18);
+  transform: translateY(-3px);
+}
+
+.sales-button-cta[data-button-style="step"]:active {
+  box-shadow:
+    0 2px 0 var(--sales-button-step-color),
+    0 8px 16px rgba(0, 0, 0, 0.16);
+  transform: translateY(2px);
+}
+
+.sales-button-cta[data-animated="true"] {
+  animation: sales-button-pulse 2400ms cubic-bezier(0.22, 1, 0.36, 1) infinite;
+}
+
+.sales-button-cta[data-animated="true"][data-button-style="step"] {
+  animation-name: sales-button-step-pulse;
+}
+
+.sales-arrows {
+  --sales-arrow-move-x: 0px;
+  --sales-arrow-move-y: 8px;
+}
+
+.sales-arrows[data-direction="up"] {
+  --sales-arrow-move-y: -8px;
+}
+
+.sales-arrows[data-direction="left"] {
+  --sales-arrow-move-x: -8px;
+  --sales-arrow-move-y: 0px;
+}
+
+.sales-arrows[data-direction="right"] {
+  --sales-arrow-move-x: 8px;
+  --sales-arrow-move-y: 0px;
+}
+
+.sales-arrows[data-animated="true"][data-animation-style="flow"] .sales-arrow-icon {
+  animation: sales-arrow-flow 1200ms cubic-bezier(0.22, 1, 0.36, 1) infinite;
+}
+
+.sales-arrows[data-animated="true"][data-animation-style="bounce"] .sales-arrow-icon {
+  animation: sales-arrow-bounce 900ms cubic-bezier(0.34, 1.56, 0.64, 1) infinite;
+}
+
+.sales-arrows[data-animated="true"][data-animation-style="pulse"] .sales-arrow-icon {
+  animation: sales-arrow-pulse 1050ms ease-in-out infinite;
+}
+
+.sales-purchase-toast {
+  align-items: flex-start;
+  background: var(--sales-purchase-bg, #111827);
+  border: 1px solid color-mix(in srgb, var(--sales-purchase-text, #ffffff) 16%, transparent);
+  border-radius: 14px;
+  box-shadow: 0 20px 55px rgba(0, 0, 0, 0.28);
+  color: var(--sales-purchase-text, #ffffff);
+  display: flex;
+  gap: 12px;
+  max-width: min(calc(100vw - 28px), 360px);
+  min-width: min(calc(100vw - 28px), 300px);
+  opacity: 0;
+  padding: 14px 16px;
+  pointer-events: none;
+  position: fixed;
+  transform: translate3d(0, 12px, 0) scale(0.98);
+  transition:
+    opacity 220ms cubic-bezier(0.22, 1, 0.36, 1),
+    transform 220ms cubic-bezier(0.22, 1, 0.36, 1);
+  z-index: 2147483000;
+}
+
+.sales-purchase-toast[data-visible="true"] {
+  opacity: 1;
+  transform: translate3d(0, 0, 0) scale(1);
+}
+
+.sales-purchase-toast[data-position="bottom-left"] {
+  bottom: 18px;
+  left: 18px;
+}
+
+.sales-purchase-toast[data-position="bottom-right"] {
+  bottom: 18px;
+  right: 18px;
+}
+
+.sales-purchase-toast[data-position="top-left"] {
+  left: 18px;
+  top: 18px;
+}
+
+.sales-purchase-toast[data-position="top-right"] {
+  right: 18px;
+  top: 18px;
+}
+
+.sales-purchase-toast-icon {
+  align-items: center;
+  background: var(--sales-purchase-accent, #22c55e);
+  border-radius: 999px;
+  color: #ffffff;
+  display: flex;
+  flex: 0 0 auto;
+  font-size: 14px;
+  font-weight: 900;
+  height: 28px;
+  justify-content: center;
+  line-height: 1;
+  margin-top: 1px;
+  width: 28px;
+}
+
+.sales-purchase-toast-content {
+  min-width: 0;
+}
+
+.sales-purchase-toast-title {
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.sales-purchase-toast-message {
+  font-size: 13px;
+  line-height: 1.35;
+  margin-top: 2px;
+  opacity: 0.9;
+}
+
+.sales-purchase-toast-time {
+  color: var(--sales-purchase-accent, #22c55e);
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 7px;
+}
+
+@media (hover: hover) {
+  .sales-button-cta:not([data-animated="true"]):hover {
+    opacity: 0.92;
+    transform: translateY(-1px);
+  }
+
+  .sales-button-cta:not([data-animated="true"])[data-button-style="step"]:hover {
+    box-shadow:
+      0 9px 0 var(--sales-button-step-color),
+      0 20px 32px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes sales-arrow-flow {
+  0%,
+  100% {
+    opacity: 0.72;
+    transform: translate(0, 0) scale(0.96);
+  }
+  45% {
+    opacity: 1;
+    transform: translate(var(--sales-arrow-move-x), var(--sales-arrow-move-y)) scale(1.08);
+  }
+}
+
+@keyframes sales-arrow-bounce {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(var(--sales-arrow-move-x), var(--sales-arrow-move-y)) scale(1.06);
+  }
+}
+
+@keyframes sales-arrow-pulse {
+  0%,
+  100% {
+    opacity: 0.68;
+    transform: scale(0.92);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.12);
+  }
+}
+
+@keyframes sales-button-pulse {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-2px) scale(1.025);
+  }
+}
+
+@keyframes sales-button-step-pulse {
+  0%,
+  100% {
+    transform: translateY(-3px) scale(1);
+  }
+  50% {
+    transform: translateY(-6px) scale(1.018);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sales-button-cta,
+  .sales-arrows .sales-arrow-icon,
+  .sales-purchase-toast {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+	</style>
+
+</head>
+<body>
+
+<div style="background-color:#faf8f3;color:#1f1d1a;font-family:&#x27;Inter&#x27;, system-ui, sans-serif;min-height:100%;scroll-behavior:smooth;width:100%" class="sales-preview min-h-full w-full" data-sales-device="desktop"><div id="inicio" data-section-kind="hero"><section style="padding:64px 24px 28px;padding-bottom:28px;text-align:center;background:radial-gradient(ellipse 78% 52% at 50% 12%, rgba(76, 175, 80, 0.208) 0%, transparent 100%), #0e0508;color:rgb(255, 255, 255);overflow:visible;position:relative"><div style="max-width:800px;margin:0 auto;position:relative;z-index:1"><div class="sales-rich-text sales-hero-headline" style="font-family:&#x27;Inter&#x27;, system-ui, sans-serif;color:rgb(255, 255, 255);--sales-hero-title-size:32px;font-size:var(--sales-hero-title-size);line-height:1.15;margin-bottom:12px;font-weight:800;letter-spacing:-0.01em"><p>WHAT DO I DO WITH MY DOG? <span style="color: rgb(255, 255, 255)">Stop guessing what to do with your dog today.</span></p></div><div class="sales-rich-text sales-hero-subheadline" style="--sales-hero-subtitle-size:17px;color:#ffffff;font-size:var(--sales-hero-subtitle-size);line-height:1.45;margin-bottom:0;opacity:0.9"><p>DogDay Plan asks about your dog, your time, and your space, then gives you one simple activity plan in under 60 seconds.</p></div></div></section></div><div id="preco" data-section-kind="price"><section style="padding:32px 24px 32px;background:#ffffff;color:#1f1d1a;text-align:center"><div style="max-width:800px;margin:0 auto;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px"><div style="text-align:center;display:flex;flex-direction:column;align-items:center;gap:2px"><p style="font-size:22px;font-style:italic;font-weight:700;color:#e53434;text-decoration:line-through;text-decoration-color:#e53434;margin:0">$35</p><p style="font-size:14px;letter-spacing:0.14em;font-weight:600;color:#1f1d1a;margin:0">One-time payment</p></div><p style="font-size:60px;font-weight:900;color:#1ab754;font-family:&#x27;Inter&#x27;, system-ui, sans-serif;line-height:1;margin:0;letter-spacing:-0.02em">$19</p></div></section></div><div id="botao" data-section-kind="button"><section class="sales-button-section" style="padding:20px 24px 20px;background:#ffffff;color:#1f1d1a;overflow:visible;position:relative;z-index:2"><div style="max-width:800px;margin:0 auto;display:flex;justify-content:center"><a href="#oferta" class="sales-button-cta" data-button-style="step" data-animated="true" data-full-width="false" style="background-color:#4CAF50;color:#ffffff;padding:16px 32px;border-radius:8px;font-size:16px;font-weight:600;display:inline-flex;text-decoration:none;transition:opacity 0.2s;align-items:center;border:1px solid transparent;flex-direction:column;justify-content:center;line-height:1.2;max-width:100%;text-align:center;--sales-button-color:#4CAF50;--sales-button-text-color:#ffffff;--sales-button-step-color:color-mix(in srgb, #4CAF50 68%, black)"><span>Get my plan now</span><span style="display:block;font-size:13px;font-weight:600;line-height:1.15;margin-top:4px;opacity:0.82">Instant access after payment</span></a></div></section></div><div id="checklist" data-section-kind="checklist"><section style="padding:32px 24px 32px;background:#ffffff;text-align:left;color:#1f1d1a"><div style="max-width:800px;margin:0 auto"><div class="sales-rich-text" style="font-family:&#x27;Inter&#x27;, system-ui, sans-serif;color:#1f1d1a;font-size:28px;font-weight:700;letter-spacing:-0.025em;margin-bottom:24px;--sales-rich-text-h1-size:1em;--sales-rich-text-h2-size:1em;--sales-rich-text-h3-size:1em;--sales-rich-text-heading-line-height:1.14;max-width:100%;line-height:1.14;overflow-wrap:anywhere;text-wrap:balance"><p>This is for you if...</p></div><div class="sales-smart-grid" style="display:grid;justify-items:start;gap:12px;--sales-desktop-grid-template:minmax(0, 1fr)"><div class="sales-checklist-item" style="display:flex;align-items:center;gap:10px;padding:10px 16px;border-radius:999px;border:1px solid rgba(0,0,0,0.1);text-align:left;font-size:15px;font-weight:600;justify-content:flex-start;width:100%"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;flex-shrink:0;border-radius:6px;background-color:#4CAF50;color:#1f1d1a;font-size:13px;font-weight:800;line-height:1">✓</span><span class="sales-checklist-item-text"><div class="sales-rich-text"><p>You love your dog but feel guilty you don't always know what to do together.</p></div></span></div><div class="sales-checklist-item" style="display:flex;align-items:center;gap:10px;padding:10px 16px;border-radius:999px;border:1px solid rgba(0,0,0,0.1);text-align:left;font-size:15px;font-weight:600;justify-content:flex-start;width:100%"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;flex-shrink:0;border-radius:6px;background-color:#4CAF50;color:#1f1d1a;font-size:13px;font-weight:800;line-height:1">✓</span><span class="sales-checklist-item-text"><div class="sales-rich-text"><p>You have a busy schedule and want simple activities that fit your time, not a list of 50 ideas.</p></div></span></div><div class="sales-checklist-item" style="display:flex;align-items:center;gap:10px;padding:10px 16px;border-radius:999px;border:1px solid rgba(0,0,0,0.1);text-align:left;font-size:15px;font-weight:600;justify-content:flex-start;width:100%"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;flex-shrink:0;border-radius:6px;background-color:#4CAF50;color:#1f1d1a;font-size:13px;font-weight:800;line-height:1">✓</span><span class="sales-checklist-item-text"><div class="sales-rich-text"><p>You have a high-energy dog who needs more stimulation than a walk around the block.</p></div></span></div><div class="sales-checklist-item" style="display:flex;align-items:center;gap:10px;padding:10px 16px;border-radius:999px;border:1px solid rgba(0,0,0,0.1);text-align:left;font-size:15px;font-weight:600;justify-content:flex-start;width:100%"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;flex-shrink:0;border-radius:6px;background-color:#4CAF50;color:#1f1d1a;font-size:13px;font-weight:800;line-height:1">✓</span><span class="sales-checklist-item-text"><div class="sales-rich-text"><p>You have an older dog who can't do what she used to, and you need ideas that match her pace.</p></div></span></div><div class="sales-checklist-item" style="display:flex;align-items:center;gap:10px;padding:10px 16px;border-radius:999px;border:1px solid rgba(0,0,0,0.1);text-align:left;font-size:15px;font-weight:600;justify-content:flex-start;width:100%"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;flex-shrink:0;border-radius:6px;background-color:#4CAF50;color:#1f1d1a;font-size:13px;font-weight:800;line-height:1">✓</span><span class="sales-checklist-item-text"><div class="sales-rich-text"><p>You're stuck inside on a rainy day and have no idea how to burn that energy indoors.</p></div></span></div></div></div></section></div><div id="conteudo" data-section-kind="about"><section style="padding:64px 24px 64px;background:#fdeded;text-align:left;color:#1f1d1a"><div style="max-width:800px;margin:0 auto"><div class="sales-rich-text" style="font-family:&#x27;Inter&#x27;, system-ui, sans-serif;color:#1f1d1a;font-size:36px;font-weight:700;letter-spacing:-0.025em;margin-bottom:20px"><p>The 'I don't know' loop</p></div><div class="sales-rich-text" style="font-size:18px;line-height:1.7"><p>You look at your dog, tail wagging, eyes asking for something. You think: <strong>what do we do now?</strong> You scroll through a list of '10 games for bored dogs' <u>and feel worse. </u></p><p><br></p><p><strong>That list wasn't made for your dog</strong>. Your dog is a 9-year-old beagle who sleeps most of the day, and you have 20 minutes before a video call. The list has ideas for a border collie with a 5-mile run in him.</p><p><br></p><p>That's the <strong>Invisible Mismatch</strong>: your dog's needs, your time, your space, and your energy never line up with the generic advice you find online. So you keep choosing wrong, and wrong feels like failure.</p></div></div></section></div><div id="conteudo-2" data-section-kind="about"><section style="padding:64px 24px 64px;background:#f8f2e3;text-align:left;color:#1f1d1a"><div style="max-width:800px;margin:0 auto"><div class="sales-rich-text" style="font-family:&#x27;Inter&#x27;, system-ui, sans-serif;color:#1f1d1a;font-size:36px;font-weight:700;letter-spacing:-0.025em;margin-bottom:20px"><p>The Right Now Match</p></div><div class="sales-rich-text" style="font-size:18px;line-height:1.7"><p>The <strong>Right Now Match</strong> is the engine inside DogDay Plan that kills the <u>Invisible Mismatch</u>. It asks you about your dog, your available time, your energy, your space, and your resources right now. Then it filters out everything that doesn't fit and hands you <strong>one simple activity plan</strong> with timing and steps.</p><p><br></p><p><u>No endless lists</u>. No 'whatever works for you' advice. Just the answer to 'what should we do together today?'</p><p>Your dog doesn't need another list. They need <strong>your attention</strong>. The plan gives you that.</p></div></div></section></div><div id="etapas" data-section-kind="steps"><section style="padding:44px 24px 44px;background:#0b0b0d;text-align:left;color:#ffffff"><div style="max-width:800px;margin:0 auto"><div style="background-color:#0b0b0d;border:1px solid rgba(255,255,255,0.18);border-radius:18px;padding:clamp(28px, 5vw, 48px)"><div class="sales-rich-text" style="font-family:&#x27;Inter&#x27;, system-ui, sans-serif;color:#ffffff;font-size:34px;font-weight:700;letter-spacing:0;margin-bottom:10px;line-height:1.08;overflow-wrap:anywhere;text-align:left;text-wrap:balance;--sales-rich-text-h1-size:1em;--sales-rich-text-h2-size:1em;--sales-rich-text-h3-size:1em;--sales-rich-text-heading-line-height:1.08"><p>From 'I don't know' to 'Let's go' in 3 steps</p></div><div class="sales-rich-text" style="color:#c9c7d2;font-size:17px;line-height:1.55;margin:0 auto 34px 0;max-width:640px;opacity:0.86;text-align:left"><p>No more staring at your dog while you both look at the wall.</p></div><div class="sales-steps-list" style="display:flex;flex-direction:column;gap:0"><div class="sales-steps-item" style="display:grid;gap:18px;grid-template-columns:56px minmax(0, 1fr);position:relative"><div aria-hidden="true" style="align-items:center;display:flex;flex-direction:column;min-height:132px"><span style="align-items:center;background-color:color-mix(in srgb, #e91e63 14%, transparent);border:2px solid #e91e63;border-radius:999px;color:#e91e63;display:inline-flex;flex:0 0 auto;font-family:&#x27;Inter&#x27;, system-ui, sans-serif;font-size:20px;font-weight:800;height:56px;justify-content:center;line-height:1;width:56px">1</span><span style="background-color:rgba(255,255,255,0.26);flex:1 1 auto;margin-top:4px;min-height:44px;width:2px"></span></div><div style="min-width:0;padding:3px 0 36px;text-align:left"><p style="color:#e91e63;font-family:&#x27;Inter&#x27;, system-ui, sans-serif;font-size:12px;font-weight:800;letter-spacing:0;line-height:1;margin:0 0 10px;text-transform:uppercase">Stage 01</p><div class="sales-rich-text" style="font-family:&#x27;Inter&#x27;, system-ui, sans-serif;color:#ffffff;font-size:22px;font-weight:700;letter-spacing:0;margin-bottom:12px;line-height:1.18;overflow-wrap:anywhere"><p>Answer a few quick questions</p></div><div class="sales-rich-text" style="color:#ffffff;font-size:17px;line-height:1.58;margin:0;opacity:0.88;overflow-wrap:anywhere"><p>Tell us about your dog, your schedule, your energy, your space. Took me 2 minutes with my own dog.</p></div></div></div><div class="sales-steps-item" style="display:grid;gap:18px;grid-template-columns:56px minmax(0, 1fr);position:relative"><div aria-hidden="true" style="align-items:center;display:flex;flex-direction:column;min-height:132px"><span style="align-items:center;background-color:color-mix(in srgb, #e91e63 14%, transparent);border:2px solid #e91e63;border-radius:999px;color:#e91e63;display:inline-flex;flex:0 0 auto;font-family:&#x27;Inter&#x27;, system-ui, sans-serif;font-size:20px;font-weight:800;height:56px;justify-content:center;line-height:1;width:56px">2</span><span style="background-color:rgba(255,255,255,0.26);flex:1 1 auto;margin-top:4px;min-height:44px;width:2px"></span></div><div style="min-width:0;padding:3px 0 36px;text-align:left"><p style="color:#e91e63;font-family:&#x27;Inter&#x27;, system-ui, sans-serif;font-size:12px;font-weight:800;letter-spacing:0;line-height:1;margin:0 0 10px;text-transform:uppercase">Stage 02</p><div class="sales-rich-text" style="font-family:&#x27;Inter&#x27;, system-ui, sans-serif;color:#ffffff;font-size:22px;font-weight:700;letter-spacing:0;margin-bottom:12px;line-height:1.18;overflow-wrap:anywhere"><p>Get your Right Now Match plan</p></div><div class="sales-rich-text" style="color:#ffffff;font-size:17px;line-height:1.58;margin:0;opacity:0.88;overflow-wrap:anywhere"><p>Our engine filters out what won't work and hands you one activity with timing and simple steps.</p></div></div></div><div class="sales-steps-item" style="display:grid;gap:18px;grid-template-columns:56px minmax(0, 1fr);position:relative"><div aria-hidden="true" style="align-items:center;display:flex;flex-direction:column;min-height:56px"><span style="align-items:center;background-color:color-mix(in srgb, #e91e63 14%, transparent);border:2px solid #e91e63;border-radius:999px;color:#e91e63;display:inline-flex;flex:0 0 auto;font-family:&#x27;Inter&#x27;, system-ui, sans-serif;font-size:20px;font-weight:800;height:56px;justify-content:center;line-height:1;width:56px">3</span></div><div style="min-width:0;padding:3px 0 0;text-align:left"><p style="color:#e91e63;font-family:&#x27;Inter&#x27;, system-ui, sans-serif;font-size:12px;font-weight:800;letter-spacing:0;line-height:1;margin:0 0 10px;text-transform:uppercase">Stage 03</p><div class="sales-rich-text" style="font-family:&#x27;Inter&#x27;, system-ui, sans-serif;color:#ffffff;font-size:22px;font-weight:700;letter-spacing:0;margin-bottom:12px;line-height:1.18;overflow-wrap:anywhere"><p>Do it today, together</p></div><div class="sales-rich-text" style="color:#ffffff;font-size:17px;line-height:1.58;margin:0;opacity:0.88;overflow-wrap:anywhere"><p>You don't need a course. You need one idea that fits. Go do it.</p></div></div></div></div></div></div></section></div><div id="contador" data-section-kind="countdown"><section style="padding:42px 24px 42px;background:#0b0b0d;text-align:center;color:#ffffff"><div style="max-width:640px;margin:0 auto"><div class="sales-countdown" data-countdown-target="2026-09-24T21:05" data-countdown-mode="automatic" data-countdown-duration-seconds="1200" data-countdown-storage-key="sales-countdown:f786cd46-7670-4ba1-9737-a596d3f631c4:1200" data-countdown-expired-text="Oferta encerrada" style="text-align:center"><div class="sales-rich-text" style="font-family:&#x27;Inter&#x27;, system-ui, sans-serif;color:#ffffff;font-size:30px;font-weight:700;letter-spacing:0;margin-bottom:10px;line-height:1.12;overflow-wrap:anywhere;text-align:center"><p>The longer you wait, the more days you lose</p></div><div class="sales-rich-text" style="color:#d8d4e3;font-size:16px;line-height:1.5;margin:0 0 24px;opacity:0.88;overflow-wrap:anywhere;text-align:center"><p>Every day you skip a walk because you don't know what else to do, your dog loses a chance to burn energy and feel connected. </p></div><div class="sales-countdown-grid" style="--sales-countdown-border-color:rgba(255,255,255,0.14);--sales-countdown-accent-color:#e91e63;--sales-countdown-columns:2;--sales-countdown-number-size:34px;--sales-countdown-label-size:11px;--sales-countdown-scale:1"><div class="sales-countdown-cell" style="background-color:rgba(233,30,99,0.16);border:1px solid rgba(255,255,255,0.14);border-radius:14px;min-width:0;overflow:hidden;padding:var(--sales-countdown-cell-block-padding) var(--sales-countdown-cell-inline-padding);text-align:center"><span class="sales-countdown-value" data-unit="minutes" style="color:#e91e63;display:block;font-family:&#x27;Inter&#x27;, system-ui, sans-serif;font-variant-numeric:tabular-nums;font-weight:900;line-height:1;white-space:nowrap;word-break:keep-all">20</span><span data-label-unit="minutes" style="color:#ffffff;display:block;font-weight:800;letter-spacing:0;line-height:1;margin-top:10px;opacity:0.72;white-space:nowrap;word-break:keep-all">MIN</span></div><div class="sales-countdown-cell" style="background-color:rgba(233,30,99,0.16);border:1px solid rgba(255,255,255,0.14);border-radius:14px;min-width:0;overflow:hidden;padding:var(--sales-countdown-cell-block-padding) var(--sales-countdown-cell-inline-padding);text-align:center"><span class="sales-countdown-value" data-unit="seconds" style="color:#e91e63;display:block;font-family:&#x27;Inter&#x27;, system-ui, sans-serif;font-variant-numeric:tabular-nums;font-weight:900;line-height:1;white-space:nowrap;word-break:keep-all">00</span><span data-label-unit="seconds" style="color:#ffffff;display:block;font-weight:800;letter-spacing:0;line-height:1;margin-top:10px;opacity:0.72;white-space:nowrap;word-break:keep-all">SEG</span></div></div><p class="sales-countdown-expired" style="color:#e91e63;display:none;font-size:16px;font-weight:800;margin:18px 0 0">Oferta encerrada</p></div></div></section></div><div id="bonus" data-section-kind="bonus"><section style="padding:56px 24px 56px;background:#faf8f3;text-align:center;color:#1f1d1a"><div style="max-width:800px;margin:0 auto"><div style="display:grid;grid-template-columns:1fr;align-items:stretch;border:1px solid rgba(0,0,0,0.1);border-radius:22px;background:#ffffff;box-shadow:0 18px 48px rgba(0,0,0,0.08);overflow:hidden"><div style="min-width:0;padding:28px;text-align:center;align-self:stretch;height:100%;display:flex;flex-direction:column;justify-content:flex-start"><div class="sales-rich-text" style="font-family:&#x27;Inter&#x27;, system-ui, sans-serif;color:#1f1d1a;font-size:34px;font-weight:700;letter-spacing:-0.025em;margin-bottom:12px;line-height:1.12;text-align:center"><p>Five Minute Reset</p></div><div class="sales-rich-text" style="color:rgba(31, 29, 26, 0.74);font-size:18px;font-weight:700;line-height:1.42;margin-bottom:14px;text-align:center"><p>A quick activity for a restless dog when you're short on time or patience.</p></div><div class="sales-rich-text" style="color:#1f1d1a;font-size:16px;line-height:1.65;opacity:0.88;margin-bottom:28px;text-align:center"><p>The Five Minute Reset is a fast, focused activity designed for days when you have almost no time or energy. It gives your dog a mental workout that calms the chaos in minutes. Perfect for high-energy moments when you need to break the cycle.</p></div><div style="display:flex;align-items:baseline;justify-content:center;flex-wrap:nowrap;gap:clamp(4px, 1.4cqw, 10px);max-width:100%;min-width:0;container-type:inline-size;border-top:1px dashed rgba(0,0,0,0.1);padding-top:22px;text-align:center;white-space:nowrap"><div style="display:inline-flex;align-items:baseline;gap:clamp(3px, 1.2cqw, 8px);min-width:0;flex-shrink:1"><span style="color:#1f1d1a;font-size:clamp(14px, 5.4cqw, 26.5px);font-weight:800;flex:0 0 auto">From</span><span style="color:#e53434;font-size:clamp(16px, 7.4cqw, 34px);font-weight:900;text-decoration:line-through;text-decoration-thickness:0.08em;min-width:0">$17</span></div><div style="display:inline-flex;align-items:baseline;gap:clamp(3px, 1.2cqw, 8px);min-width:0;flex-shrink:1"><span style="color:#1f1d1a;font-size:clamp(14px, 5.4cqw, 26.5px);font-weight:800;flex:0 0 auto">For</span><span style="color:#1ab754;font-size:clamp(18px, 8.4cqw, 37.4px);font-weight:900;line-height:1;min-width:0">$7</span></div></div></div></div></div></section></div><div id="bonus-2" data-section-kind="bonus"><section style="padding:56px 24px 56px;background:#faf8f3;text-align:center;color:#1f1d1a"><div style="max-width:800px;margin:0 auto"><div style="display:grid;grid-template-columns:1fr;align-items:stretch;border:1px solid rgba(0,0,0,0.1);border-radius:22px;background:#ffffff;box-shadow:0 18px 48px rgba(0,0,0,0.08);overflow:hidden"><div style="min-width:0;padding:28px;text-align:center;align-self:stretch;height:100%;display:flex;flex-direction:column;justify-content:flex-start"><div class="sales-rich-text" style="font-family:&#x27;Inter&#x27;, system-ui, sans-serif;color:#1f1d1a;font-size:34px;font-weight:700;letter-spacing:-0.025em;margin-bottom:12px;line-height:1.12;text-align:center"><p>No Walk Plan</p></div><div class="sales-rich-text" style="color:rgba(31, 29, 26, 0.74);font-size:18px;font-weight:700;line-height:1.42;margin-bottom:14px;text-align:center"><p>An indoor activity for rainy days, limited mobility, or when the sidewalk is a no-go.</p></div><div class="sales-rich-text" style="color:#1f1d1a;font-size:16px;line-height:1.65;opacity:0.88;margin-bottom:28px;text-align:center"><p>The No Walk Plan gives you a structured indoor activity that uses your living room or hallway. No equipment needed. It turns your space into a mini adventure that burns energy and beats boredom, even when the weather outside says otherwise.</p></div><div style="display:flex;align-items:baseline;justify-content:center;flex-wrap:nowrap;gap:clamp(4px, 1.4cqw, 10px);max-width:100%;min-width:0;container-type:inline-size;border-top:1px dashed rgba(0,0,0,0.1);padding-top:22px;text-align:center;white-space:nowrap"><div style="display:inline-flex;align-items:baseline;gap:clamp(3px, 1.2cqw, 8px);min-width:0;flex-shrink:1"><span style="color:#1f1d1a;font-size:clamp(14px, 5.4cqw, 26.5px);font-weight:800;flex:0 0 auto">From</span><span style="color:#e53434;font-size:clamp(16px, 7.4cqw, 34px);font-weight:900;text-decoration:line-through;text-decoration-thickness:0.08em;min-width:0">$15</span></div><div style="display:inline-flex;align-items:baseline;gap:clamp(3px, 1.2cqw, 8px);min-width:0;flex-shrink:1"><span style="color:#1f1d1a;font-size:clamp(14px, 5.4cqw, 26.5px);font-weight:800;flex:0 0 auto">For</span><span style="color:#1ab754;font-size:clamp(18px, 8.4cqw, 37.4px);font-weight:900;line-height:1;min-width:0">$5</span></div></div></div></div></div></section></div><div id="bonus-3" data-section-kind="bonus"><section style="padding:56px 24px 56px;background:#faf8f3;text-align:center;color:#1f1d1a"><div style="max-width:800px;margin:0 auto"><div style="display:grid;grid-template-columns:1fr;align-items:stretch;border:1px solid rgba(0,0,0,0.1);border-radius:22px;background:#ffffff;box-shadow:0 18px 48px rgba(0,0,0,0.08);overflow:hidden"><div style="min-width:0;padding:28px;text-align:center;align-self:stretch;height:100%;display:flex;flex-direction:column;justify-content:flex-start"><div class="sales-rich-text" style="font-family:&#x27;Inter&#x27;, system-ui, sans-serif;color:#1f1d1a;font-size:34px;font-weight:700;letter-spacing:-0.025em;margin-bottom:12px;line-height:1.12;text-align:center"><p>Dog Mood Switcher</p></div><div class="sales-rich-text" style="color:rgba(31, 29, 26, 0.74);font-size:18px;font-weight:700;line-height:1.42;margin-bottom:14px;text-align:center"><p>A simpler alternative when your dog is tired, distracted, or just not in the mood.</p></div><div class="sales-rich-text" style="color:#1f1d1a;font-size:16px;line-height:1.65;opacity:0.88;margin-bottom:28px;text-align:center"><p>The Dog Mood Switcher is the backup plan for when your dog is not feeling it. It offers a simpler, lower-energy activity that still engages their mind without pushing them too hard. It's about reading the mood and choosing something that works for that moment.</p></div><div style="display:flex;align-items:baseline;justify-content:center;flex-wrap:nowrap;gap:clamp(4px, 1.4cqw, 10px);max-width:100%;min-width:0;container-type:inline-size;border-top:1px dashed rgba(0,0,0,0.1);padding-top:22px;text-align:center;white-space:nowrap"><div style="display:inline-flex;align-items:baseline;gap:clamp(3px, 1.2cqw, 8px);min-width:0;flex-shrink:1"><span style="color:#1f1d1a;font-size:clamp(14px, 5.4cqw, 26.5px);font-weight:800;flex:0 0 auto">From</span><span style="color:#e53434;font-size:clamp(16px, 7.4cqw, 34px);font-weight:900;text-decoration:line-through;text-decoration-thickness:0.08em;min-width:0">$14</span></div><div style="display:inline-flex;align-items:baseline;gap:clamp(3px, 1.2cqw, 8px);min-width:0;flex-shrink:1"><span style="color:#1f1d1a;font-size:clamp(14px, 5.4cqw, 26.5px);font-weight:800;flex:0 0 auto">For</span><span style="color:#1ab754;font-size:clamp(18px, 8.4cqw, 37.4px);font-weight:900;line-height:1;min-width:0">$4</span></div></div></div></div></div></section></div><div id="depoimentos" data-section-kind="testimonials"><section style="padding:64px 24px 64px;background:#faf8f3;color:#1f1d1a"><div style="max-width:800px;margin:0 auto"><div class="sales-rich-text" style="font-family:&#x27;Inter&#x27;, system-ui, sans-serif;color:#1f1d1a;font-size:36px;font-weight:700;letter-spacing:-0.025em;margin-bottom:32px;text-align:center"><p>What people are saying</p><p><br></p></div><div class="sales-testimonials-grid" style="--sales-testimonials-desktop-grid-template:1fr;display:grid;gap:20px"><div style="background-color:#f8fafc;padding:24px;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,0.05);text-align:center"><div class="sales-rich-text" style="font-size:16px;line-height:1.6;margin-bottom:20px;font-style:italic"><p>"I never know what to do with my dog. I tried everything online and it never worked. This app actually told me what to do. My dog is happier and I feel like a better owner."</p></div><div style="display:flex;align-items:center;justify-content:center;flex-direction:column;gap:12px;text-align:center"><strong style="font-size:15px">Sarah M.</strong></div></div><div style="background-color:#f8fafc;padding:24px;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,0.05);text-align:center"><div class="sales-rich-text" style="font-size:16px;line-height:1.6;margin-bottom:20px;font-style:italic"><p>"I work long hours and have a hyper golden retriever. The plan gave me a 10-minute activity that burned his energy. We both feel less guilty now."</p></div><div style="display:flex;align-items:center;justify-content:center;flex-direction:column;gap:12px;text-align:center"><strong style="font-size:15px">Jake R.</strong></div></div><div style="background-color:#f8fafc;padding:24px;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,0.05);text-align:center"><div class="sales-rich-text" style="font-size:16px;line-height:1.6;margin-bottom:20px;font-style:italic"><p>"My dog is 12 and has arthritis. I thought nothing would help. The app suggested a gentle game that he actually enjoys. He wags his tail again."</p></div><div style="display:flex;align-items:center;justify-content:center;flex-direction:column;gap:12px;text-align:center"><strong style="font-size:15px">Emily T.</strong></div></div></div></div></section></div><div id="ancoragem" data-section-kind="anchoring"><section style="padding:40px 24px 40px;background:#faf8f3;text-align:center;color:#1f1d1a"><div style="max-width:640px;margin:0 auto"><div style="border:1.5px solid rgba(0,0,0,0.1);border-radius:16px;padding:28px 24px;background-color:#ffffff"><div class="sales-rich-text" style="font-family:&#x27;Inter&#x27;, system-ui, sans-serif;color:#1f1d1a;font-size:28px;font-weight:700;letter-spacing:-0.025em;margin-bottom:24px;text-align:center"><p>Everything you get today</p></div><div style="display:flex;flex-direction:column"><div style="display:flex;align-items:center;gap:12px;padding:12px 0;border-bottom:1px dashed rgba(0,0,0,0.1)"><span aria-hidden="true" style="flex:0 0 auto;color:#16a34a;font-size:18px;line-height:1;font-weight:700">✓</span><div class="sales-rich-text" style="flex:1 1 auto;font-size:17px;text-align:left"><p>Right Now Match engine</p></div><span style="flex:0 0 auto;color:#e53434;font-weight:800;font-size:17px;white-space:nowrap">$19</span></div><div style="display:flex;align-items:center;gap:12px;padding:12px 0;border-bottom:1px dashed rgba(0,0,0,0.1)"><span aria-hidden="true" style="flex:0 0 auto;color:#16a34a;font-size:18px;line-height:1;font-weight:700">✓</span><div class="sales-rich-text" style="flex:1 1 auto;font-size:17px;text-align:left"><p>Five Minute Reset</p></div><span style="flex:0 0 auto;color:#e53434;font-weight:800;font-size:17px;white-space:nowrap">$7</span></div><div style="display:flex;align-items:center;gap:12px;padding:12px 0;border-bottom:1px dashed rgba(0,0,0,0.1)"><span aria-hidden="true" style="flex:0 0 auto;color:#16a34a;font-size:18px;line-height:1;font-weight:700">✓</span><div class="sales-rich-text" style="flex:1 1 auto;font-size:17px;text-align:left"><p>No Walk Plan</p></div><span style="flex:0 0 auto;color:#e53434;font-weight:800;font-size:17px;white-space:nowrap">$5</span></div><div style="display:flex;align-items:center;gap:12px;padding:12px 0;border-bottom:none"><span aria-hidden="true" style="flex:0 0 auto;color:#16a34a;font-size:18px;line-height:1;font-weight:700">✓</span><div class="sales-rich-text" style="flex:1 1 auto;font-size:17px;text-align:left"><p>Dog Mood Switcher</p></div><span style="flex:0 0 auto;color:#e53434;font-weight:800;font-size:17px;white-space:nowrap">$4</span></div></div><div style="margin-top:20px;padding-top:16px;border-top:1px solid rgba(0,0,0,0.1);text-align:center;color:#e53434;font-family:&#x27;Inter&#x27;, system-ui, sans-serif"><p style="font-size:28px;font-weight:900;margin:0;line-height:1.1">Total value</p><p style="font-size:36px;font-weight:900;margin:4px 0 0;line-height:1.1;text-decoration:line-through;text-decoration-color:#e53434">$ 35</p></div></div></div></section></div><div id="oferta" data-section-kind="pricing"><section class="sales-pricing-section" style="padding:24px 24px 24px;text-align:center;background:#faf8f3;color:#ffffff;position:relative;z-index:2"><div style="max-width:800px;margin:0 auto"><div class="sales-pricing-card" style="max-width:520px;margin:0 auto;padding:20px 32px;border:1.5px solid rgba(255,255,255,0.14);border-radius:16px;background-color:#0e0508;color:#ffffff;overflow:visible;position:relative;z-index:2"><div class="sales-rich-text" style="font-family:&#x27;Inter&#x27;, system-ui, sans-serif;font-size:32px;margin-bottom:12px;font-weight:700;letter-spacing:-0.025em"><p>Your dog deserves your attention today</p></div><div class="sales-rich-text" style="font-size:16px;margin-bottom:12px;opacity:0.85"><p class="ql-align-center">When you get DogDay Plan, you get the <strong>Right Now Match engine</strong> that asks about your dog, your time, your energy, your space, and your resources. </p><p class="ql-align-center">It filters out what doesn't fit and gives you <strong>one simple activity plan</strong> with timing and steps in under 60 seconds.</p><p><br></p><p>You also get the <strong>Five Minute Reset</strong>, <strong>No Walk Plan</strong>, and <strong>Dog Mood Switcher</strong> as part of this one-time payment.</p><p>You no longer have to wonder what to</p></div><div style="margin-bottom:16px"><p style="font-size:56px;font-weight:800;font-family:&#x27;Inter&#x27;, system-ui, sans-serif;line-height:1.1;color:#1ab754;margin:0">$19</p><p style="color:#ffffff;font-size:15px;font-weight:700;line-height:1.35;margin:6px 0 0;opacity:0.86">or 12x of $3.70</p></div><a href="#" class="sales-button-cta" data-button-style="step" data-animated="true" data-full-width="true" style="background-color:#ffffff;color:#1f1d1a;padding:18px 40px;border-radius:8px;font-size:18px;font-weight:600;display:inline-flex;text-decoration:none;transition:opacity 0.2s;align-items:center;border:1px solid transparent;flex-direction:column;justify-content:center;line-height:1.2;max-width:var(--sales-button-full-max-width, 100%);text-align:center;width:100%;--sales-button-color:#ffffff;--sales-button-text-color:#1f1d1a;--sales-button-step-color:color-mix(in srgb, #ffffff 68%, black)"><span>Get my plan now</span><span style="display:block;font-size:13px;font-weight:600;line-height:1.15;margin-top:4px;opacity:0.82">Secure checkout. Access delivered via email.</span></a></div></div></section></div><div id="garantia" data-section-kind="guarantee"><section style="padding:64px 24px 64px;background:#faf8f3;text-align:center;color:#1f1d1a"><div style="max-width:800px;margin:0 auto"><div class="sales-rich-text" style="font-family:&#x27;Inter&#x27;, system-ui, sans-serif;color:#1f1d1a;font-size:32px;font-weight:700;letter-spacing:-0.025em;margin-bottom:16px"><p>15-Day Money-Back Guarantee</p></div><div class="sales-rich-text" style="font-size:18px;line-height:1.6;opacity:0.85"><p>Try DogDay Plan for 7 days. If you don't find an activity that works for you and your dog, email us for a full refund. No questions asked. It's that simple.</p></div></div></section></div><div id="faq" data-section-kind="faq"><section style="padding:40px 24px 40px;background:#ffffff;text-align:left;color:#1f1d1a"><div style="max-width:800px;margin:0 auto"><div class="sales-rich-text" style="font-family:&#x27;Inter&#x27;, system-ui, sans-serif;color:#1f1d1a;font-size:36px;font-weight:700;letter-spacing:-0.025em;margin-bottom:32px"><p>Frequently Asked Questions</p></div><div><details style="border-bottom:1px solid rgba(0,0,0,0.1);padding:20px 0"><summary style="font-size:18px;font-weight:600;cursor:pointer;list-style:none">How do I access the app?</summary><div class="sales-rich-text" style="font-size:16px;line-height:1.6;margin-top:12px;opacity:0.85"><p>You get instant access via email after payment. Use it on any device with a browser.</p></div></details><details style="border-bottom:1px solid rgba(0,0,0,0.1);padding:20px 0"><summary style="font-size:18px;font-weight:600;cursor:pointer;list-style:none">Is this a course or a social network?</summary><div class="sales-rich-text" style="font-size:16px;line-height:1.6;margin-top:12px;opacity:0.85"><p>No. It's a recommendation tool that gives you a plan. No videos, no login walls, no community drama.</p></div></details><details style="border-bottom:1px solid rgba(0,0,0,0.1);padding:20px 0"><summary style="font-size:18px;font-weight:600;cursor:pointer;list-style:none">How fast will I see results?</summary><div class="sales-rich-text" style="font-size:16px;line-height:1.6;margin-top:12px;opacity:0.85"><p>The first plan appears in under 60 seconds. The results depend on your dog, but most owners see a calmer, more engaged dog within a few days of consistent use.</p></div></details><details style="border-bottom:1px solid rgba(0,0,0,0.1);padding:20px 0"><summary style="font-size:18px;font-weight:600;cursor:pointer;list-style:none">Will it work on my phone?</summary><div class="sales-rich-text" style="font-size:16px;line-height:1.6;margin-top:12px;opacity:0.85"><p>Yes. The app is built mobile-first and works on any modern browser, so you can use it on the couch or in the park.</p></div></details><details style="border-bottom:1px solid rgba(0,0,0,0.1);padding:20px 0"><summary style="font-size:18px;font-weight:600;cursor:pointer;list-style:none">What if my dog is sick or has health issues?</summary><div class="sales-rich-text" style="font-size:16px;line-height:1.6;margin-top:12px;opacity:0.85"><p>The app is not a substitute for veterinary care. Always consult your vet for health concerns. The app helps with behavior and stimulation, not medical advice.</p></div></details></div></div></section></div><div id="autor" data-section-kind="author"><section style="padding:25px 24px 25px;background:#faf8f3;color:#1f1d1a"><div style="max-width:800px;margin:0 auto;display:flex;flex-direction:column;gap:0;align-items:center;justify-content:center;flex-wrap:wrap;text-align:center"><div style="flex:0 1 auto;min-width:240px;max-width:620px"><div class="sales-rich-text" style="font-family:&#x27;Inter&#x27;, system-ui, sans-serif;color:#1f1d1a;font-size:28px;font-weight:700;letter-spacing:-0.025em;margin-bottom:8px"><p>Meet Renato, the creator behind</p></div><div class="sales-rich-text" style="font-size:16px;line-height:1.6;opacity:0.85"><p>Reanto has been a dog owner for 15 years and knows the guilt of not knowing what to do with a dog who has too much energy or too little.</p><p>After trying every list, book, and video, he built DogDay Plan to give dog owners a clear answer in under a minute, not another 200-page guide.</p><p>DogDay Plan is a tool, not a lecture. It respects your time and your dog's energy.</p></div></div></div></section></div><div id="rodape" data-section-kind="footer"><footer style="padding:32px 24px 32px;text-align:center;font-size:14px;background:#faf8f3;color:#1f1d1a;font-family:&#x27;Inter&#x27;, system-ui, sans-serif"><div style="max-width:800px;margin:0 auto"><div class="sales-rich-text"><p>© 2026 DogDay Plan. All rights reserved.</p></div></div></footer></div></div>
+
+<script>
+(function () {
+  function pad(value) {
+    return String(Math.max(0, value)).padStart(2, "0");
+  }
+
+  function updateCountdown(countdown) {
+    var target = resolveCountdownTarget(countdown);
+    var total = Number.isFinite(target) ? Math.max(0, target - Date.now()) : 0;
+    var totalSeconds = Math.floor(total / 1000);
+    var values = {
+      days: Math.floor(totalSeconds / 86400),
+      hours: Math.floor((totalSeconds % 86400) / 3600),
+      minutes: Math.floor((totalSeconds % 3600) / 60),
+      seconds: totalSeconds % 60
+    };
+
+    Object.keys(values).forEach(function (unit) {
+      var el = countdown.querySelector('[data-unit="' + unit + '"]');
+      if (el) el.textContent = pad(values[unit]);
+    });
+
+    var expired = countdown.querySelector(".sales-countdown-expired");
+    if (expired) expired.style.display = total <= 0 ? "block" : "none";
+  }
+
+  function resolveCountdownTarget(countdown) {
+    var resolved = Number(countdown.getAttribute("data-countdown-resolved-target") || "0");
+    if (Number.isFinite(resolved) && resolved > 0) return resolved;
+
+    var mode = countdown.getAttribute("data-countdown-mode") || "fixed";
+    if (mode === "automatic") {
+      var key = countdown.getAttribute("data-countdown-storage-key") || "";
+      var stored = 0;
+      try {
+        stored = key ? Number(window.localStorage.getItem(key) || "0") : 0;
+      } catch (_error) {
+        stored = 0;
+      }
+      if (Number.isFinite(stored) && stored > 0) {
+        countdown.setAttribute("data-countdown-resolved-target", String(stored));
+        return stored;
+      }
+
+      var durationSeconds = Number(countdown.getAttribute("data-countdown-duration-seconds") || "1200");
+      if (!Number.isFinite(durationSeconds) || durationSeconds <= 0) durationSeconds = 1200;
+      var automaticTarget = Date.now() + Math.round(durationSeconds * 1000);
+      countdown.setAttribute("data-countdown-resolved-target", String(automaticTarget));
+      try {
+        if (key) window.localStorage.setItem(key, String(automaticTarget));
+      } catch (_error) {
+        // localStorage can be unavailable in strict browser modes; the in-page target still works.
+      }
+      return automaticTarget;
+    }
+
+    var targetValue = countdown.getAttribute("data-countdown-target") || "";
+    var fixedTarget = new Date(targetValue).getTime();
+    countdown.setAttribute("data-countdown-resolved-target", String(fixedTarget));
+    return fixedTarget;
+  }
+
+  var countdowns = Array.prototype.slice.call(document.querySelectorAll(".sales-countdown[data-countdown-target]"));
+  if (countdowns.length === 0) return;
+  countdowns.forEach(updateCountdown);
+  window.setInterval(function () {
+    countdowns.forEach(updateCountdown);
+  }, 1000);
+})();
+</script>
+
+
+</body>
+</html>
